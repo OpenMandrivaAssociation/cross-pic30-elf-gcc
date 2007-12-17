@@ -10,7 +10,6 @@ License:	GPL
 Group:		Development/Other
 URL:		http://ww1.microchip.com/downloads/en/DeviceDoc/mplabc30v2_01.tgz
 Source0:	mplabc30v2_01.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	byacc gcc4.1 gettext texinfo dos2unix
 Patch0:		pic30-gcc-makefile-in.diff.bz2
 Patch1:		pic30-gcc-t-pic30.diff.bz2

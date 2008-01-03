@@ -28,7 +28,7 @@ find . -type f -exec dos2unix '{}' ';'
 %patch3 -b .gcc4
 %build
 cd gcc-3.3
-CC="gcc-`gcc4.1-version` -DMCHP_VERSION=2.01 -O2" ./configure --target=pic30-elf --prefix=%{_prefix} --enable-languages=c
+CC="gcc-`gcc4.2-version` -DMCHP_VERSION=2.01 -O2" ./configure --target=pic30-elf --prefix=%{_prefix} --enable-languages=c
 %make tooldir=%{_prefix} all
 
 %install

@@ -1,6 +1,6 @@
 %define name		cross-pic30-elf-gcc
 %define version		3.3.mplab.2.01
-%define release		%mkrel 2
+%define release		%mkrel 3
 
 Summary:	GNU Compiler Collection
 Name:		%{name}
